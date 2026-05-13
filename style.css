@@ -25,3 +25,40 @@ img {
   height: auto;
   display: block;
 }
+
+/* 视频页透明点击层 */
+.video-map {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.video-map img {
+  width: 100%;
+  display: block;
+}
+.video-link {
+  position: absolute;
+  background: transparent;
+  cursor: pointer;
+}
+/* 左图链接区域 */
+.link-left {
+  top: 28%;
+  left: 6%;
+  width: 28%;
+  height: 36%;
+}
+/* 中图链接区域 */
+.link-middle {
+  top: 28%;
+  left: 37%;
+  width: 28%;
+  height: 36%;
+}
+/* 右图链接区域 */
+.link-right {
+  top: 28%;
+  left: 68%;
+  width: 28%;
+  height: 36%;
+}
