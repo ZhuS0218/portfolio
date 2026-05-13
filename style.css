@@ -5,30 +5,23 @@
   font-family: "Microsoft YaHei", sans-serif;
 }
 body {
-  background: #f7f8fa;
+  background: #ffffff;
   color: #333;
   line-height: 1.8;
 }
 .wrap {
   max-width: 900px;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 0;
 }
 .box {
   background: #fff;
-  padding: 20px;
-  border-radius: 16px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 0;
+  margin-bottom: 0;
   text-align: center;
-}
-.box h2 {
-  font-size: 18px;
-  margin-bottom: 12px;
-  color: #1a73e8;
 }
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
+  display: block;
 }
