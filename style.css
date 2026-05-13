@@ -11,33 +11,12 @@ body {
   margin: 0 auto;
 }
 .box {
-  position: relative;
   width: 100%;
 }
 img {
   width: 100%;
   display: block;
 }
-
-/* 视频页 三个可点击区域 */
-.video-container {
-  position: relative;
-}
-.video-container a {
-  position: absolute;
-  top: 25%;
-  height: 40%;
-  z-index: 999;
-}
-.video-container .v1 {
-  left: 5%;
-  width: 28%;
-}
-.video-container .v2 {
-  left: 36%;
-  width: 28%;
-}
-.video-container .v3 {
-  left: 67%;
-  width: 28%;
+a {
+  display: block;
 }
