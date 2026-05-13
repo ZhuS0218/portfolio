@@ -2,63 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Microsoft YaHei", sans-serif;
 }
 body {
-  background: #ffffff;
-  color: #333;
-  line-height: 1.8;
+  background: #fff;
 }
 .wrap {
   max-width: 900px;
   margin: 0 auto;
-  padding: 0;
 }
 .box {
-  background: #fff;
-  padding: 0;
-  margin-bottom: 0;
-  text-align: center;
+  position: relative;
+  width: 100%;
 }
 img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
   display: block;
 }
 
-/* 视频页透明点击层 */
-.video-map {
+/* 视频页 三个可点击区域 */
+.video-container {
   position: relative;
-  display: block;
-  width: 100%;
 }
-.video-map img {
-  width: 100%;
-  display: block;
-}
-.video-link {
+.video-container a {
   position: absolute;
-  background: transparent;
-  cursor: pointer;
+  top: 25%;
+  height: 40%;
+  z-index: 999;
 }
-/* 左图链接区域 */
-.link-left {
-  top: 28%;
-  left: 6%;
+.video-container .v1 {
+  left: 5%;
   width: 28%;
-  height: 36%;
 }
-/* 中图链接区域 */
-.link-middle {
-  top: 28%;
-  left: 37%;
+.video-container .v2 {
+  left: 36%;
   width: 28%;
-  height: 36%;
 }
-/* 右图链接区域 */
-.link-right {
-  top: 28%;
-  left: 68%;
+.video-container .v3 {
+  left: 67%;
   width: 28%;
-  height: 36%;
 }
