@@ -11,12 +11,10 @@ body {
   margin: 0 auto;
 }
 .box {
+  position: relative;
   width: 100%;
 }
 img {
   width: 100%;
-  display: block;
-}
-a {
   display: block;
 }
